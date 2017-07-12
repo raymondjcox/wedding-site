@@ -8,20 +8,13 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
   </head>
   <body>
-    <header class="page-header">
-      <h1>Jiayi &amp; RJ's Wedding</h1>
-      <nav>
-        <%= link_to("our wedding") %>
-        <%= link_to("details") %>
-        <%= link_to("photos") %>
-      </nav>
-    </header>
+    <%= partial "partials/main_header" %>
     <div class="content-container">
       <%= yield %>
     </div>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <%= javascript_include_tag "site" %>
   </body>
 </html>

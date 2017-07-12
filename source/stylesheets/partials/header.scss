@@ -1,0 +1,19 @@
+.main-header {
+  margin-top: 20px;
+  text-align: center;
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+  }
+  nav {
+    a {
+      margin-right: 10px;
+      margin-left: 10px;
+      text-transform: uppercase;
+      transition: color .25s;
+      &:hover {
+        color: #b58d2a;
+      }
+    }
+  }
+}
