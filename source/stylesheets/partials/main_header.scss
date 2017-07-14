@@ -9,7 +9,7 @@
     a {
       margin: 0px 10px;
       text-transform: uppercase;
-      transition: color .25s;
+      color: $black-color;
       &:hover {
         color: $gold-color;
       }
