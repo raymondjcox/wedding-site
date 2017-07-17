@@ -1,0 +1,27 @@
+{
+  "name": "jiayirjwedding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondjcox/wedding-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raymondjcox/wedding-site/issues"
+  },
+  "homepage": "https://github.com/raymondjcox/wedding-site#readme",
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "photoswipe": "^4.1.2",
+    "webpack": "^3.3.0"
+  }
+}

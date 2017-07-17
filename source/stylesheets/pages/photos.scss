@@ -1,0 +1,15 @@
+.photos {
+  .gallery {
+    [itemprop="thumbnail"]{
+      max-height: 120px;
+      width: 125px;
+    }
+    figure {
+      display: inline-block;
+      text-align: left;
+      img {
+      }
+      margin: 5px;
+    }
+  }
+}
