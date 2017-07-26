@@ -42,6 +42,7 @@ page '/*.txt', layout: false
 
 activate :asset_hash
 activate :livereload
+activate :minify_html
 
 activate :external_pipeline,
          name: :webpack,
